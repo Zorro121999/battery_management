@@ -1,0 +1,238 @@
+2025-03-11 13:55:49,563 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,453x244,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-03-11 13:55:52,142 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-03-11 13:57:10,830 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 916986096 Bytes (1073741824)
+2025-03-11 13:57:14,127 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 760112520 Bytes (1073741824)
+2025-03-11 13:57:17,988 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 758830968 Bytes (1073741824)
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DAC
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-03-11 13:57:19,300 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-03-11 13:57:19,300 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : hdmavalue: null
+2025-03-11 13:57:19,315 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Channel1
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Channel1
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : Initvalue: null
+2025-03-11 13:57:19,315 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:57:19,315 [INFO] Argument:319 - Argument : Lockvalue: null
+2025-03-11 13:57:19,315 [INFO] Argument:329 - Argument : Lockvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Statevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Statevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Parentvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Parentvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : DMA_Remapvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : DMA_Remapvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : hdmavalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Channel2
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Channel2
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Initvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Lockvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Lockvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Statevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Statevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : Parentvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : Parentvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:319 - Argument : DMA_Remapvalue: null
+2025-03-11 13:57:19,331 [INFO] Argument:329 - Argument : DMA_Remapvalue: null
+2025-03-11 13:57:19,893 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\license.tmp_save
+2025-03-11 13:57:20,018 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\license.tmp
+2025-03-11 13:57:20,112 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\gpio.tmp_save
+2025-03-11 13:57:20,268 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\gpio.tmp
+2025-03-11 13:57:21,628 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma.tmp_save
+2025-03-11 13:57:21,737 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma.tmp
+2025-03-11 13:57:21,737 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma_GV.tmp_save
+2025-03-11 13:57:21,831 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma_GV.tmp
+2025-03-11 13:57:21,862 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_it.c_save
+2025-03-11 13:57:22,096 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_it.c
+2025-03-11 13:57:22,112 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_it.h_save
+2025-03-11 13:57:22,206 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_it.h
+2025-03-11 13:57:22,237 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_hal_msp.c_save
+2025-03-11 13:57:22,425 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_hal_msp.c
+2025-03-11 13:57:22,440 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\system.tmp_save
+2025-03-11 13:57:22,503 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\system.tmp
+2025-03-11 13:57:22,534 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-03-11 13:57:22,612 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_hal_conf.h
+2025-03-11 13:57:22,643 [WARN] IPConfigManager:3431 - IP not found : TIM
+2025-03-11 13:57:22,643 [WARN] CodeGenerator:3754 - IP not found : null
+2025-03-11 13:57:22,659 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\main.h_save
+2025-03-11 13:57:22,768 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\main.h
+2025-03-11 13:57:22,768 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\main.c_save
+2025-03-11 13:57:23,003 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\main.c
+2025-03-11 13:57:24,675 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 844mS.
+2025-03-11 13:57:24,690 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2025-03-11 13:57:25,221 [INFO] ConfigFileManager:1483 - The Die is : DIE446
+2025-03-11 13:57:28,831 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 4141mS.
+2025-03-11 13:57:28,831 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2025-03-11 13:57:28,831 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2025-03-11 13:58:40,604 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 823013792 Bytes (1073741824)
+2025-03-11 13:58:43,620 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 847653280 Bytes (1073741824)
+2025-03-11 13:58:48,387 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 844537392 Bytes (1073741824)
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DAC
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-03-11 13:58:49,623 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-03-11 13:58:49,639 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : hdmavalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Channel1
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Channel1
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Initvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Lockvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Lockvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Statevalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Statevalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : Parentvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : Parentvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:319 - Argument : DMA_Remapvalue: null
+2025-03-11 13:58:49,654 [INFO] Argument:329 - Argument : DMA_Remapvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : hdmavalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Channel2
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Channel2
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Initvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:321 - 	 sub Args: 
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Lockvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Lockvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Statevalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Statevalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : Parentvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : Parentvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:319 - Argument : DMA_Remapvalue: null
+2025-03-11 13:58:49,670 [INFO] Argument:329 - Argument : DMA_Remapvalue: null
+2025-03-11 13:58:50,092 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\license.tmp_save
+2025-03-11 13:58:50,280 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\license.tmp
+2025-03-11 13:58:50,358 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\gpio.tmp_save
+2025-03-11 13:58:50,483 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\gpio.tmp
+2025-03-11 13:58:51,530 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma.tmp_save
+2025-03-11 13:58:51,624 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma.tmp
+2025-03-11 13:58:51,624 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma_GV.tmp_save
+2025-03-11 13:58:51,734 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\dma_GV.tmp
+2025-03-11 13:58:51,780 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_it.c_save
+2025-03-11 13:58:51,984 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_it.c
+2025-03-11 13:58:51,999 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_it.h_save
+2025-03-11 13:58:52,109 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_it.h
+2025-03-11 13:58:52,140 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_hal_msp.c_save
+2025-03-11 13:58:52,468 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\stm32f3xx_hal_msp.c
+2025-03-11 13:58:52,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\system.tmp_save
+2025-03-11 13:58:52,577 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\MXTmpFiles\system.tmp
+2025-03-11 13:58:52,609 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-03-11 13:58:52,718 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\stm32f3xx_hal_conf.h
+2025-03-11 13:58:52,749 [WARN] IPConfigManager:3431 - IP not found : TIM
+2025-03-11 13:58:52,749 [WARN] CodeGenerator:3754 - IP not found : null
+2025-03-11 13:58:52,768 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\main.h_save
+2025-03-11 13:58:52,875 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Inc\main.h
+2025-03-11 13:58:52,890 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\main.c_save
+2025-03-11 13:58:53,078 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Documents\WS24\Schaltungsentwicklung\bsp_project\battery_management1\Core\Src\main.c
+2025-03-11 13:58:54,297 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 465mS.
+2025-03-11 13:58:54,297 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2025-03-11 13:58:54,876 [INFO] ConfigFileManager:1483 - The Die is : DIE446
+2025-03-11 13:58:58,064 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3767mS.
+2025-03-11 13:58:58,064 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2025-03-11 13:58:58,080 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

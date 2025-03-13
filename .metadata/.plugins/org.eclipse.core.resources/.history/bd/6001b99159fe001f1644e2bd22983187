@@ -1,0 +1,5 @@
+#define MAX_V_CUTOFF
+#define MIN_V_CUTOFF
+
+void controlB2B(uint32_t raw, float thresh_low, float thresh_high);
+void batteryCutoff(uint32_t raw);

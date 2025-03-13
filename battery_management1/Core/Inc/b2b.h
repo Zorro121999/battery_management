@@ -1,0 +1,10 @@
+#include <stdint.h>
+
+#define MAX_V_CUTOFF 3.5
+#define MIN_V_CUTOFF 2.0
+#define V_THRESH     0.05
+
+void controlB2B(uint32_t raw, float thresh_low, float thresh_high);
+void batteryCutoff(uint32_t raw);
+
+extern float voltage;

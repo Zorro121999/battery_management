@@ -1,0 +1,8 @@
+#include "b2b.h"
+
+void controlB2B(uint32_t raw, float thresh_low, float thresh_high) {
+	float voltage;
+	voltage = (raw/4096)*4.4;
+	if(voltage)
+
+}

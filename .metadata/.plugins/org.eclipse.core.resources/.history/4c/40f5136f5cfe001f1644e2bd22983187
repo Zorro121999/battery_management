@@ -1,0 +1,38 @@
+#include "b2b.h"
+#include <stdint.h>
+
+void controlB2B(uint32_t raw, float thresh_low, float thresh_high) {
+	float voltage;
+	voltage = (raw/4096)*4.4;
+	if(voltage > thresh_high+0.1) {
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_RESET);    //shut off both transistors
+	}
+	else if(voltage > thresh_high) {
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);   //shut off charging transistor
+	}
+	else if(voltage < thresh_low-0.5) {
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);   //shut off both transistors
+	}
+	else if(voltage < thresh_low) {
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_RESET);    //shut off discharging transistor
+	}
+	else {
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);     //both transistors on
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_SET);
+	}
+
+}
+
+void batteryCutoff(uint32_t raw) {
+	float voltage;
+	voltage = (raw/4096)*4.4;
+	if(voltage > MAX_V_CUTOFF + V_THRESH) {
+		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_RESET);
+	}
+	else if(voltage < MIN_V_CUTOFF - V_THRESH) {
+		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_RESET);
+	}
+	else if(voltage < MAX_V_CUTOFF && voltage > MIN_V_CUTOFF) {
+		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);
+	}
+}

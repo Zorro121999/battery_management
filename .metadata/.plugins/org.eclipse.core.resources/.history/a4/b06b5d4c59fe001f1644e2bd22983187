@@ -1,0 +1,1 @@
+void controlB2B(uint32_t raw, float thresh_low, float thresh_high);
