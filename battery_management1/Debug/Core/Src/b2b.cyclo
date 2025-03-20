@@ -1,2 +1,6 @@
-b2b.c:6:6:controlB2B	5
-b2b.c:28:6:batteryCutoff	5
+b2b.c:6:24:readParameters	1
+b2b.c:13:10:readTemperature	2
+b2b.c:21:9:readCurrent	2
+b2b.c:29:10:readVoltage	2
+b2b.c:35:6:controlB2B	5
+b2b.c:57:6:batteryCutoff	5

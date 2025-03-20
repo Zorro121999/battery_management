@@ -3,6 +3,35 @@
 
 float voltage;
 
+struct ProcParamStruct readParameters(uint16_t rawTemp, uint16_t rawCurrent, uint16_t rawVoltage) {
+	struct ProcParamStruct procParam;
+	procParam.procTemp = readTemperature(rawTemp);
+	procParam.procCurrent = readCurrent(rawCurrent);
+	procParam.procVoltage = readVoltage(rawVoltage);
+}
+
+uint16_t readTemperature(uint16_t rawTemp) {
+	uint16_t processedV = 0;
+	uint16_t processedT = 0;
+	processedV = rawTemp*3300/4096;
+	processedT = (processedV - 500)/10;
+	return processedT;
+}
+
+int16_t readCurrent(uint16_t rawCurrent) {
+    uint16_t processedV = 0;
+    uint16_t processedC = 0;
+    processedV = rawCurrent*3300/4096;
+    processedC = (processedV - 1650)*10/33;
+    return processedC;
+}
+
+uint16_t readVoltage(uint16_t rawVoltage) {
+	uint16_t processedV = 0;
+	processedV = rawVoltage*4400/4096;
+	return processedV;
+}
+
 void controlB2B(uint32_t raw, float thresh_low, float thresh_high) {
 	float voltage;
 	voltage = (raw/4096)*4.4;

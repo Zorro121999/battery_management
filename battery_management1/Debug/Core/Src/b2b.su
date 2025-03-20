@@ -1,2 +1,6 @@
-../Core/Src/b2b.c:6:6:controlB2B	40	static
-../Core/Src/b2b.c:28:6:batteryCutoff	16	static
+../Core/Src/b2b.c:6:24:readParameters	32	static
+../Core/Src/b2b.c:13:10:readTemperature	24	static
+../Core/Src/b2b.c:21:9:readCurrent	24	static
+../Core/Src/b2b.c:29:10:readVoltage	24	static
+../Core/Src/b2b.c:35:6:controlB2B	40	static
+../Core/Src/b2b.c:57:6:batteryCutoff	16	static
